@@ -1,5 +1,9 @@
 from selenium import webdriver
 
+# Here we store some configs for protocols.
+#
+# All the code assumes that the enviroment for each feature is already configured
+
 def tor():
 
     host = 'localhost'
